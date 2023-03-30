@@ -1,1 +1,0 @@
-# graphickat.github.io
