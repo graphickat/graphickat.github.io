@@ -3503,7 +3503,7 @@ body.landing .dropotron.level-0 {
 	-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 	transition: transform 0.5s ease, opacity 0.5s ease;
 	position: relative;
-	width: calc(100%);
+	width: calc(100% - 1.25em);
 	margin: 2.5em 0 0 2.5em;
 }
 
@@ -3694,19 +3694,19 @@ body.is-touch .tiles article .content {
 	}
 
 	.tiles article {
-		width: calc(33.33333% - 1.25em);
+		width: calc(100% - 1.25em);
 		margin: 1.25em 0 0 1.25em;
 	}
 }
 
 @media screen and (max-width: 980px) {
 	.tiles {
-		margin: -2.5em 0 0 -2.5em;
+		margin: -1.25em 0 0 -1.25em;
 	}
 
 	.tiles article {
-		width: calc(50% - 2.5em);
-		margin: 2.5em 0 0 2.5em;
+		width: calc(100% - 1.5em);
+		margin: 1.25em 0 0 1.25em;
 	}
 }
 
@@ -3716,7 +3716,7 @@ body.is-touch .tiles article .content {
 	}
 
 	.tiles article {
-		width: calc(50% - 1.25em);
+		width: calc(100% - 1.25em);
 		margin: 1.25em 0 0 1.25em;
 	}
 
