@@ -6,6 +6,9 @@
 	<title>GraphicKat</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
@@ -46,53 +49,103 @@
 						<img src="images/wxtj.png" align="center">
 						<h2 align="center"> WXTJ 100.1 FM</h2>
 						<h4>Freeform Radio & Internet Talkshow Host</h4>
-						<p>Since fall 2021, I have hosted a weekly radio & internet talkshow alongisde my close friend,
-							Evelyn Frields.</p>
-						<p>A space to explore media, creators, & projects from a variety of alternative subcultures,
-							<i>Ctrl+Alt+42</i> is edgy, unhinged, hilarious, nerdy, and fun.<br><br>
-							<b>Listen to an excerpt from <i>Ctrl+Alt+42</i></b><br><br>
-								<audio controls align="center">
-									<source src="images/yuri.mp3" type="audio/mpeg">
-								</audio>
+						<p style="text-align: left;text-indent: 35px; margin-bottom: 0px;">Since fall 2021, I have
+							hosted a weekly radio &
+							internet talkshow alongisde my close friend,
+							Evelyn Frields.
+						<p style="text-align: left;text-indent: 35px;"> A space to explore media, creators, & projects
+							from a variety of alternative subcultures,
+							<i>Ctrl+Alt+42</i> is edgy, unhinged, hilarious, nerdy, & fun.
+						</p>
+						<p style="text-align: center"><b>Listen to an excerpt from <i>Ctrl+Alt+42</i></b></p>
+						<audio controls align="center">
+							<source src="images/yuri.mp3" type="audio/mpeg">
+						</audio>
 						</p>
 					</div>
 					<div class="col-4 col-12-medium">
 						<h5>here</h5>
 						<h3>Download resume</h3>
 						<p>Download a PDF version <a href="einsteins grubhub 6X4.pdf" download="test.pdf">here</a></p>
+						<div id="tiktokCarousel" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#tiktokCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#tiktokCarousel" data-slide-to="1"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<span class="image fit">
+										<img src="images/fanart.jpeg" alt="tiktok-01" />
+									</span>
+								</div>
+								<div class="item">
+									<span class="image fit">
+										<img src="images/fanart2.jpg" alt="tiktok-02" />
+									</span>
+								</div>
+							</div>
+
+							<!-- Left and right controls -->
+							<a class="left carousel-control" href="#tiktokCarousel" data-slide="prev"
+								style="background-image: none">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#tiktokCarousel" data-slide="next"
+								style="background-image: none">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+						<!-- End Carousel -->
 					</div>
 					<div class="col-4 col-12-medium" style="text-align: center;">
 						<span class="image fit"><img src="images/wtju.png"></span>
 						<h2>Musician Interviews</h2>
-						<p>In January of 2022, I took an immersive podcasting class held at WTJU Charlottesville, taught by station manager Nathan Moore. The course was 8 hours/day day for two weeks. 
-							In that time, I received hands-on training for various types of recording equiment & audio editing softwares. For my final project––<i>in a one week time span</i>, I organized, hosted, recorded, &
-							 edited a podcast interview with <i>Pavement</i>'s drummer, Bob Nastanovich. <span class="image right"><img src="images/bobs.png" alt=""> <br>
-							 The episode aired on WTJU Charlottesville, inspiring me to continue this project, conducting interviews with other successful music artists.
-							 My goal of this project was to demystify the music-making process and encourage my listeners to create art for art's sake.</p>
-						<br> <br>
-						<img src="images/bobs.png">
-						<h3>Pavement Interview Podcast</h3>
-						<p>Podcast I hosted and edited with drummer Bob Nastanovich of indie band <i>Pavement.</i> My
-							interview aired on WTJU Charlottesville 91.1 FM</p>
+						<p style="text-align: left;text-indent: 35px; margin-bottom: 0px;">In January of 2022, I took an
+							immersive
+							podcasting class held at WTJU Charlottesville, taught by station manager Nathan Moore. The
+							course was 8 hours/day day for two weeks.
+							In that time, I received hands-on training for various types of recording equiment & audio
+							editing softwares. For my final project––<i>in a one week time span</i>, I organized,
+							hosted, recorded, &
+							edited a podcast interview with <i>Pavement</i>'s drummer, Bob Nastanovich.<br><br></p>
+						<p style="text-align: center;margin-bottom: 0px;"><b><i>Listen to the full podcast here</i></b>
+						</p>
 						<audio controls align="center">
 							<source src="images/pave.mp3" type="audio/mpeg">
-						</audio>
-						<br> <br>
-						<img src="images/pans.png">
-						<h3>Panchiko Interview</h3>
-						<p>Excertpt from an interview I hosted with Shaun and Owain of English Rockband <i>Panchiko</i>
-						</p>
+						</audio><br><br>
+						<p style="text-align: left;text-indent: 35px; margin-bottom: 0px;"> <span
+								class="image right"><img src="images/bobs.png" alt=""></span>The episode aired on WTJU's
+							online & FM radio stations, inspiring me to
+							continue this project, conducting interviews with other successful music artists.
+							My goal of this project was to demystify the music-making process and encourage my listeners
+							to create art for art's sake.</p><br>
+						<p style="text-align: center;margin-bottom: 0px;"><b>Excerpt from interview with Shaun & Owain
+								of English Rockband <i>Panchiko</i></b></p>
 						<audio controls align="center">
 							<source src="images/panch.mp3" type="audio/mpeg">
-						</audio>
-						<br> <br>
-						<img src="images/sweets.png">
-						<h3>Sweet Trip Interview</h3>
-						<p>Excerpt from an interview I hosted with Roberto Burgos of English Rockband <i>Panchiko</i>
-						</p>
-						<div class="embed-responsive embed-responsive-16by9" align="center">
-							<iframe class="embed-responsive-item" src="images/sweety.mp4"
-								style="width: 80%; align-self: center;"></iframe>
+						</audio><br><br>
+						<p style="text-align: left;text-indent: 35px; margin-bottom: 0px;">
+							Each interview was conducted over Zoom. I extracted the audio files from the Zoom
+							recordings, &
+							uploaded them into Adobe Audition. From there, I edited the interviews based on narrative &
+							clarity.
+						</p><br>
+						<p style="text-align: center;margin-bottom: 0px;"><b><i>Clip of Zoom recording with Roberto
+									Burgos of dreampop/electronica band <i>Sweet
+										Trip</i></b></p>
+						<div class='row'>
+							<div class='col-sm-2'></div>
+							<div class='col-sm-8'>
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe src="images/sweety.mp4" allowfullscreen></iframe>
+								</div>
+							</div>
+							<div class='col-sm-2'></div>
 						</div>
 					</div>
 				</div>
