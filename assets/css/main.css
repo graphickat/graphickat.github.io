@@ -3698,7 +3698,6 @@ body.is-touch .tiles article .content {
 	}
 
 	.tiles article {
-		width: calc(100% - 1.25em);
 		margin: 1.25em 0 0 1.25em;
 	}
 }
@@ -3709,7 +3708,7 @@ body.is-touch .tiles article .content {
 	}
 
 	.tiles article {
-		width: calc(100% - 1.25em);
+		width: calc(50% - 1.25em);
 		margin: 1.25em 0 0 1.25em;
 	}
 }
@@ -3720,7 +3719,7 @@ body.is-touch .tiles article .content {
 	}
 
 	.tiles article {
-		width: calc(100% - 1.25em);
+		width: calc(50% - 1.25em);
 		margin: 1.25em 0 0 1.25em;
 	}
 
